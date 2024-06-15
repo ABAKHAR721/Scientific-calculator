@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_bg_number">#D4D4D2</color> <!-- Light gray -->
+    <color name="button_bg_operator">#FF9500</color> <!-- Orange -->
+    <color name="button_bg_function">#505050</color> <!-- Dark gray -->
+    <color name="button_bg_clear">#FF3B30</color> <!-- Red for clear and backspace -->
+    <color name="button_text_default">#FFFFFF</color> <!-- White text -->
+    <color name="button_text_operator">#FFFFFF</color> <!-- White text for operators -->
+    <color name="background">#000000</color> <!-- Black background -->
+    <color name="text_view_bg">#333333</color> <!-- Dark gray for TextView background -->
+    <color name="text_view_text">#FFFFFF</color> <!-- White text for TextView -->
+</resources>
