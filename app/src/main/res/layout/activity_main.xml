@@ -29,29 +29,36 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="7" />
+            android:text="7"
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="8" />
+            android:text="8"
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/button9"
-
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="9" />
+            android:text="9"
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonDiv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="/" />
+            android:text="/"
+            android:backgroundTint="@color/button_bg_operator"
+            android:textColor="@color/button_text_operator" />
 
         <!-- Row 2 -->
         <Button
@@ -59,28 +66,36 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="4" />
+            android:text="4"
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="5" />
+            android:text="5"
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="6" />
+            android:text="6"
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonMul"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="*" />
+            android:text="*"
+            android:backgroundTint="@color/button_bg_operator"
+            android:textColor="@color/button_text_operator" />
 
         <!-- Row 3 -->
         <Button
@@ -88,28 +103,36 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="1" />
+            android:text="1"
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="2" />
+            android:text="2"
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="3" />
+            android:text="3"
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonMinus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="-" />
+            android:text="-"
+            android:backgroundTint="@color/button_bg_operator"
+            android:textColor="@color/button_text_operator" />
 
         <!-- Row 4 -->
         <Button
@@ -117,21 +140,27 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="0" />
+            android:text="0"
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonDot"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="." />
+            android:text="."
+            android:backgroundTint="@color/button_bg_number"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonPlus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="+" />
+            android:text="+"
+            android:backgroundTint="@color/button_bg_operator"
+            android:textColor="@color/button_text_operator" />
 
         <!-- Row 5 (Scientific functions) -->
         <Button
@@ -139,83 +168,109 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="√"/>
+            android:text="√"
+            android:backgroundTint="@color/button_bg_function"
+            android:textColor="@color/button_text_default" />
+
         <Button
             android:id="@+id/buttonPower"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="^" />
+            android:text="^"
+            android:backgroundTint="@color/button_bg_function"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonLog"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="log" />
+            android:text="log"
+            android:backgroundTint="@color/button_bg_function"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonLn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="ln" />
+            android:text="ln"
+            android:backgroundTint="@color/button_bg_function"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonSin"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="sin" />
+            android:text="sin"
+            android:backgroundTint="@color/button_bg_function"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonCos"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="cos" />
+            android:text="cos"
+            android:backgroundTint="@color/button_bg_function"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonTan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="tan" />
+            android:text="tan"
+            android:backgroundTint="@color/button_bg_function"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonOpenParen"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="(" />
+            android:text="("
+            android:backgroundTint="@color/button_bg_function"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonCloseParen"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text=")" />
+            android:text=")"
+            android:backgroundTint="@color/button_bg_function"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonClear"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="C" />
+            android:text="C"
+            android:backgroundTint="@color/button_bg_clear"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonBackspace"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="⌫" />
+            android:text="⌫"
+            android:backgroundTint="@color/button_bg_clear"
+            android:textColor="@color/button_text_default" />
 
         <Button
             android:id="@+id/buttonEqual"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="=" />
+            android:text="="
+            android:backgroundTint="@color/button_bg_operator"
+            android:textColor="@color/button_text_operator" />
+
         <!-- Button to restore the last expression -->
         <Button
             android:id="@+id/buttonRestore"
@@ -223,13 +278,12 @@
             android:layout_height="wrap_content"
             android:layout_columnSpan="4"
             android:text="Restore Last Expression"
-            android:textColor="#FFFFFF"
-            android:background="#0C2F87"
+            android:textColor="@color/button_text_default"
+            android:backgroundTint="@color/button_bg_operator"
             android:textSize="18sp"
             android:layout_gravity="fill_horizontal"/>
 
     </GridLayout>
-
 
     <TextView
         android:layout_width="match_parent"
